@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/* Reset Design by Jackal */
+/* Google fonts 中文字型 : Noto Sans Traditional Chinese; */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* font-family: 'Noto Sans TC', sans-serif; */
+/* Google fonts 英文字型 : Lato */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* font-family: 'Lato', sans-serif; */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 18px;
+  color: #000000;
+  font-family: "Noto Sans TC", "Roboto";
+  letter-spacing: 1px;
+  margin: 0;
+  /*font-weight: 600;*/
+}
+
+html {
+  scrollbar-face-color: #1f85b3;
+  scrollbar-highlight-color: #ffffff;
+  scrollbar-shadow-color: #ffffff;
+  scrollbar-3dlight-color: #ffffff;
+  scrollbar-arrow-color: #ffffff;
+  scrollbar-track-color: #ffffff;
+  scrollbar-darkshadow-color: #ffffff;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img {
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a:link,
+a:visited {
+  /*font-family: "Microsoft YaHei";*/
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+li {
+  list-style-type: none;
+}
+
+input {
+  vertical-align: middle;
+} /*input對齊*/
+/*表格細框*/
+table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+tr,
+td {
+  border: 1px solid #000;
+} /*# sourceMappingURL=reset.css.map */
