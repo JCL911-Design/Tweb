@@ -48,16 +48,16 @@ body main section {
     justify-content: center;
 }
 
-body main section div {
-    width: 50%;
+body main section div.imgKa {
+    width: 25rem;
     margin: 2rem 0;
-    padding-bottom: 3rem;
-    border-bottom: 1px solid #cdcdcd;
+    padding: 2rem;
+    box-shadow: 3px 5px 14px 0px rgba(20, 20, 20, 0.80);
 }
 
 body main section div h4 {
     width: 100%;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
     text-align: center;
     margin-bottom: 1.5rem;
