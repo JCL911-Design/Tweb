@@ -45,7 +45,7 @@ body main section {
     box-sizing: border-box;
     padding: 3rem 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 body main section div.imgKa {
